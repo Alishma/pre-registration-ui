@@ -3,14 +3,14 @@
 }
 
 :ng-deep .mat-focused {
-  border-bottom: 1px solid #22a8c9;
+  border-bottom: 1px solid #0a484f;
 }
 ::ng-deep .mat-form-field .mat-form-field-label {
   padding-top: 3px;
 }
 ::ng-deep .mat-form-field.mat-focused .mat-form-field-label {
   /* margin-bottom: 3px; */
-  color: #22a8c9;
+  color: #0a484f;
 }
 
 .spinner {
@@ -388,7 +388,7 @@ mat-icon {
   color: white;
   min-height: 40px;
   padding: 10px;
-  background-color:rgb(11, 106, 130) ;
+  background-color:#0a484f ;
 }
 .fieldContent {
   padding: 10px;
