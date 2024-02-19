@@ -22,7 +22,7 @@
 .heading {
   font-family: 'Roboto';
   font-size: 20px;
-  color: #fd518c;
+  color: #06489B;
   opacity: 100%;
   line-height: 20px;
   white-space: nowrap;
@@ -35,8 +35,8 @@ img {
   padding-right: 2px;
 }
 .modify-info-btn {
-  color: #fd518c;
-  border: 1px solid #fd518c;
+  color: #06489B;
+  border: 1px solid #06489B;
   border-radius: 0px;
   margin-left: 15px !important;
   margin-top: 30px;
@@ -44,8 +44,8 @@ img {
   font-size: 11px !important;
 }
 .modify-app-btn {
-  color: #fd518c;
-  border: 1px solid #fd518c;
+  color: #06489B;
+  border: 1px solid #06489B;
   border-radius: 0px;
   margin-left: 12px;
   margin-top: 30px;
@@ -55,7 +55,7 @@ img {
 .create-app-btn {
   color: #ffffff;
   font-family: 'Roboto';
-  background-color: #ff4081;
+  background-color: #06489B;
   opacity: 90%;
   margin-left: 12px;
   font-size: 0.75rem;

@@ -46,7 +46,7 @@ ADD ./nginx.conf /etc/nginx/nginx.conf
 
 ADD default.conf /etc/nginx/conf.d/
 
-ADD dist ${base_path}
+ADD dist/pre-registration ${base_path}
 
 # change permissions of file inside working dir
 RUN chown -R ${container_user}:${container_user} ${base_path}/assets/i18n
