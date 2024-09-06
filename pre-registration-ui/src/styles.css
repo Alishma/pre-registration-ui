@@ -285,3 +285,24 @@ mat-keyboard-container mat-keyboard-key .mat-keyboard-key {
 .mat-checkbox-checked.mat-accent .mat-checkbox-background, .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background{
   background-color : #00b1c0 !important;
 }
+
+body {
+  background-image: url(assets/logo.png);
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 20%;
+}
+
+.mat-radio-button.mat-accent.mat-radio-checked .mat-radio-outer-circle {
+  border-color : #00b1c0 !important;
+}
+
+.mat-radio-button.mat-accent .mat-radio-inner-circle, .mat-radio-button.mat-accent .mat-radio-ripple .mat-ripple-element:not(.mat-radio-persistent-ripple), .mat-radio-button.mat-accent.mat-radio-checked .mat-radio-persistent-ripple, .mat-radio-button.mat-accent:active .mat-radio-persistent-ripple {
+ background-color: #00b1c0 !important;
+}
+
+.mat-radio-label-content {
+  font-weight: bold;
+}

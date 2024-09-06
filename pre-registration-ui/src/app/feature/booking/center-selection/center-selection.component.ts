@@ -103,6 +103,23 @@ export class CenterSelectionComponent
         //ex: if locHierachy is ["Country","Region","Province","City","PostalCode"] and the
         //recommended loc hierachy code is 3 for "City", then show only "Country","Region","Province"
         //in the Search dropdown. There are no booking centers mapped to "PostalCode", so don't include it.
+
+        this.allLocationTypes.map(x=> {
+          if(x.hierarchyLevelName === 'Region'){
+            x.hierarchyLevelName = 'Island';
+          }
+          if(x.hierarchyLevelName === 'Province'){
+            x.hierarchyLevelName = 'District';
+          }
+          if(x.hierarchyLevelName === 'City'){
+            x.hierarchyLevelName = 'Settlement';
+          }
+          if(x.hierarchyLevelName === 'Zone'){
+            x.hierarchyLevelName = 'Sub-settlement';
+          }
+          return x;
+        })
+
         this.locationTypes = this.allLocationTypes.filter(
           (locType) =>
             locType.hierarchyLevel <= this.recommendedCenterLocCode
